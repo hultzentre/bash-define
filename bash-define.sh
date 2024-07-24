@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #If called with args, use the first one, if not prompt for a word to define
-if [ $# -eq 0 ] then
+if [ $# -eq 0 ]; then
     read -p "Define => " word
 else
     word=$1
